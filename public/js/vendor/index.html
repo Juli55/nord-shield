@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Timeline</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/min/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Timeline Wrapper -->
+  <div id="timeline"></div>
+
+  <!-- Infobox -->
+  <div class='infobox noselect'>
+    <div class='infobox-size-toggle'></div>
+    <h1 class='infobox-title'>Default</h1>
+    <img class='infobox-image' src="https://via.placeholder.com/150" alt="event picture">
+    <p class='infobox-comment'></p>
+  </div>
+  <div class="nametag noselect">
+    <h1>hero</h1>
+  </div>
+
+  <!-- Title -->
+  <div id="page-title" class="timeline-title noselect">
+    <p>A Brief History of<br /><span>Human Civilization</span></p>
+  </div>
+  <!--  -->
+  <div id="start-journey" class="button">
+    Start Journey
+  </div>
+
+  <!-- Buttons -->
+  <button class="bt-animtest">Scroll Test</button>
+  <div class="switch-date-wrap">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="switch-date" checked>
+    <label class="onoffswitch-label" for="switch-date"></label>
+    <p class="date-type">Holocene</p>
+  </div>
+
+  <!-- Date Labels -->
+  <div class="date-label label-start noselect">
+    <p>start date</p>
+  </div>
+  <div class="date-label label-end noselect">
+    <p>end date</p>
+  </div>
+
+  <!-- Minimap -->
+  <div class="minimap">
+    <div class="select"></div>
+  </div>
+
+  <!-- First Time Greeting Page -->
+  <div id="modal" class="noselect">
+    <div id="explanation-box">
+      <div class="timeline-title">
+        <p>A Brief History of<br /><span>Human Civilization</span></p>
+      </div>
+      <div class="modal-text">
+        <h2 class="modal">Welcome to Chronologic!</h2>
+        <p class="modal">This is a round-way ticket to the past. In this interactive timeline you will be able to explore events in the History of Civilization. The essential events were curated using Cesare Emiliani’s Holocene calendar for you to entertain yourself while exploring it visually.</p>
+        <h2 class="modal">What is the Holocene calendar?</h2>
+        <p class="modal">The Holocene calendar or The Human Era calendar it’s a 1993 proposal by Cesare Emiliani to solve a number of problems with the current Anno Domini era.</p>
+        <p class="modal">Chronologic uses the Human Era calendar because it places its first year near the beginning of the Holocene geological epoch & the Neolithic Revolution, when humankind started to abandon the hunting/gathering lifestyle in exchange for agriculture and fixed settlements.</p>
+        <p class="modal">When   converting   Gregorian  AD   years   to   the   Holocene   Calendar   it   can   be   achieved   by adding 10,000 years to the AD year, therefore the current year 2018 would convert to 12,018.</p>
+      </div>
+      <label class="container">Don't show me again
+        <input id="dont-show-me-again" type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <div id="close-explanation-box" class="button">
+        Start exporing
+      </div>
+    </div>
+  </div>
+  <div class="bt-showinfo">?</div>
+
+  <!-- Scripts -->
+  <script src="javascript/util/jquery.min.js" charset="utf-8"></script>
+  <script src="javascript/util/pixi.js" charset="utf-8"></script>
+  <script type="module" src="javascript/master.mjs" charset="utf-8"></script>
+</body>
+
+</html>

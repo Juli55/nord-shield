@@ -1,0 +1,32 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+#section-header {
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  background: #E5E5E5;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+#section-header > ul {
+  height: 130px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+#section-header > ul > li {
+  height: 100%;
+  margin-right: 12px;
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+}
+#section-header > ul > li > a {
+  text-decoration: none;
+  color: #000000;
+}
