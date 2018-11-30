@@ -15,7 +15,9 @@
         <li><a href="/download">Get it for Free</a> </li>
       </ul>
     </div>
-    <div id="section-1"></div>
+    <div id="section-1"> <p> <b>Enjoy</b> your web experience<br>as if no one is watching you. </p>
+                      <p class="NextSectionDescription">How we protect your privacy</p>
+    </div>
     <div id="section-2"></div>
   </body>
 </html>
