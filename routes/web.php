@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,4 +14,8 @@
 
 Route::get('/', function () {
     return view('landingpage');
+});
+
+Route::get('/download', function () {
+  return Storage::download('public/download.jpg');
 });
